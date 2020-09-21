@@ -80,6 +80,7 @@ nav a{
 }
 header nav a{
     padding:1.5rem;
+    font-size: 1.7rem;
 }
 nav span{
     border-left:1px solid #8f5b34;
@@ -92,10 +93,10 @@ nav span{
     justify-content: center;
 }
 .title-container div {	
-    /*background-image: url();*/	
+    background-image: url(https://cdn.shopify.com/s/files/1/0150/6262/files/the-sill-195-pacific_1500x.jpg?v=1581975112);	
     background-position: center;	
     color: white;	
-    width:100%;
+    width:70%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -113,6 +114,9 @@ header .title-container h1{
 .title-container button{
     color:#ffffff;
 }
+.title-container p, .title-container p a{
+    font-size:1rem;
+}
 button{
     padding:.5% 2%;
     font-size: 1.6rem;
@@ -127,7 +131,7 @@ button:hover{
     color: #ffffff;
     box-shadow: 2px 2px 1px white;
 }
-/*Artists Section Styles */
+/*App Features Section Styles */
 .features-container{
     display:flex;
     flex-wrap: wrap;
@@ -145,6 +149,29 @@ button:hover{
     width:100%;
 }
 
+/*About The Team Section Styles*/
+.team-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:70%;
+    margin:0 auto;
+}
+.about{
+    width:40%;
+    text-align:center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about img{
+    border-radius: 50%;
+    height: 20rem;
+    width: 65%;
+}
+.team-container h4, .description{
+    color: #8d9b6a;
+}
 /*Footer Styles*/
 footer nav{
     width: 100%;

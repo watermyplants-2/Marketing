@@ -26,16 +26,17 @@ html{
 body{
     font-size:1.6rem;
     line-height: 1.5;
-    font-family: 'Raleway', serif;	
+    font-family: 'Source Serif Pro';	
 }
-h1, p, .description {	
-    font-family: 'Raleway', serif;	
+p, .description, button{	
+    font-family: 'Source Serif Pro';	
     text-align: center;	
     margin: 4%;	
     color: #8d9b6a;
 }	
 h1 {
-    font-size: 4rem;
+    font-family:'Raleway';
+    font-size: 6rem;
     text-align: center;
     margin:1rem;
     padding: 1rem;
@@ -80,11 +81,13 @@ nav a{
 }
 header nav a{
     padding:1.5rem;
+    font-size: 1.7rem;
 }
 nav span{
     border-left:1px solid #8f5b34;
 
 }
+
 /*Title Section Styles*/
 .title-container{
     display:flex;
@@ -92,10 +95,10 @@ nav span{
     justify-content: center;
 }
 .title-container div {	
-    /*background-image: url();*/	
+    background-image: url(https://cdn.shopify.com/s/files/1/0150/6262/files/the-sill-195-pacific_1500x.jpg?v=1581975112);	
     background-position: center;	
     color: white;	
-    width:100%;
+    width:70%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -106,28 +109,42 @@ nav span{
 .title-container div:hover {	
     opacity: 80%;	
 }	
-header .title-container h1{
+.title-container div h1{
     width:80%;
-    color:#8a9ea7;
+    color:white;
+    font-weight: bold;
 }
-.title-container button{
-    color:#ffffff;
+
+/*Login & Signup Button*/
+.login{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color:#8a9ea7;
+    padding:0;
 }
-button{
+.login button{
     padding:.5% 2%;
     font-size: 1.6rem;
-    border-radius:6px;
-    background-color:#8d9b6a;
-    border:2px solid #8d9b6a;
-    box-shadow: 2px 2px 1px #8d9b6a;
+    border-radius:4px;
+    background-color:#dab692;
+    border:2px solid #dab692;
+    box-shadow: 2px 2px 1px #dab692;
+    width:10%;
+    color:white;
 }
-button:hover{
-    background-color:#8d9b6a;
+.login button:hover{
+    background-color:#dab692;
     border:2px solid white;
     color: #ffffff;
     box-shadow: 2px 2px 1px white;
 }
-/*Artists Section Styles */
+.login p, .login p a{
+    font-size:1rem;
+    color:white;
+}
+/*App Features Section Styles */
 .features-container{
     display:flex;
     flex-wrap: wrap;
@@ -145,6 +162,29 @@ button:hover{
     width:100%;
 }
 
+/*About The Team Section Styles*/
+.team-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:70%;
+    margin:0 auto;
+}
+.about{
+    width:40%;
+    text-align:center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about img{
+    border-radius: 50%;
+    height: 20rem;
+    width: 65%;
+}
+.team-container h4, .description{
+    color: #8d9b6a;
+}
 /*Footer Styles*/
 footer nav{
     width: 100%;
@@ -156,6 +196,7 @@ footer nav{
 }
 footer nav a{
     padding:3rem;
+    color:#8f5b34;
 }
 /*Media Query 500px*/
 @media (max-width:500px){
@@ -188,6 +229,16 @@ footer nav a{
         width:80%;
     }
     .features img{
+        height:auto;
+    }
+    .team-container{
+        flex-direction:column;
+        align-items: center;
+    }
+    .about{
+        width: 80%;
+    }
+    .about img{
         height:auto;
     }
 }

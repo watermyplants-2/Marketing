@@ -60,9 +60,6 @@ img {
     margin-right: auto;	
     border-radius: 2%;	
 }	
-img:hover {	
-    opacity: 80%;	
-}	
 h4, h4 a{
     color:#8a9ea7;
     font-size: 1.3rem;

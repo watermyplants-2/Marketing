@@ -19,7 +19,7 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-/*GENERAL STYLES*/
+/*GENERAL STYLES at min width of 768px*/
 html{
     font-size:62.5%;
 }
@@ -148,7 +148,7 @@ nav span{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    width:70%;
+    width:85%;
     padding: 5rem;
     margin:0 auto;
 }
@@ -177,7 +177,7 @@ nav span{
 }
 .about img{
     border-radius: 50%;
-    height: 20rem;
+    height: 17rem;
     width: 65%;
 }
 .team-container h4, .description{

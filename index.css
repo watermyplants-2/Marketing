@@ -180,6 +180,9 @@ nav span{
     height: 17rem;
     width: 65%;
 }
+.team-container .about .description{
+    font-size: 1.5rem;
+}
 .team-container h4, .description{
     color: #8d9b6a;
 }

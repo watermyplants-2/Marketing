@@ -100,47 +100,67 @@ nav span{
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     width:100%;
+}
+.title-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .title-container div h1{
     color:white;
     font-size: 8rem;
 }
-
+.title-container div a button{
+    padding:.5% 2%;
+    font-size: 1.2rem;
+    border-radius:4px;
+    background-color:#8d9b6a;
+    border:2px solid #8d9b6a;
+    box-shadow: 2px 2px 1px #8d9b6a;
+    width:auto;
+    color:#ffffff;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.title-container div a button:hover{
+    background-color:#8d9b6a;
+    border:2px solid #8d9b6a;
+    color: #ffffff;
+    box-shadow: 2px 2px 1px #ffffff;
+}
 
 /*Login & Signup Button*/
 .login{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    align-content: center;
     background-color:#8a9ea7;
     padding:0;
+    opacity: 60%;
 }
-.login button{
+.login a button{
     padding:.5% 2%;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     border-radius:4px;
     background-color:#dab692;
     border:2px solid #dab692;
     box-shadow: 2px 2px 1px #dab692;
-    width:10%;
-    color:white;
+    width:80%;
+    color:#8f5b34;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
-.login button:hover{
+.login a button:hover{
     background-color:#dab692;
-    border:2px solid white;
-    color: #ffffff;
-    box-shadow: 2px 2px 1px white;
+    border:2px solid #8f5b34;
+    color: #8f5b34;
+    box-shadow: 2px 2px 1px #8f5b34;
 }
-.signup h4{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 1rem;
-}
+
 /*App Features Section Styles */
 .features-container{
     display:flex;
@@ -187,7 +207,7 @@ footer nav{
     width: 100%;
     height: 80%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     margin-top:0%;
     background-color: #dab692;
 }

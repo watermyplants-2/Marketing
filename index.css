@@ -178,6 +178,9 @@ nav span{
 .features img{
     width:100%;
 }
+.features-container .features a{
+    font-family:'Raleway';
+}
 
 /*About The Team Section Styles*/
 .team-container{
@@ -202,6 +205,9 @@ nav span{
 .team-container h4, .description{
     color: #8d9b6a;
 }
+.team-container .about a{
+    font-family:'Raleway';
+}
 /*Footer Styles*/
 footer nav{
     width: 100%;
@@ -216,7 +222,7 @@ footer nav a{
     color:#8f5b34;
 }
 /*Media Query 500px*/
-@media (max-width:500px){
+@media (max-width:650px){
     body{
         font-size:1.2rem;
     }
@@ -227,16 +233,22 @@ footer nav a{
         font-size:2rem;
     }
     nav{
-        width:80%;
+        width:100%;
     }
     header nav a{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .title-container div{
         width:100%;
     }
-    button{
+    .title-container div h1{
+        font-size:5rem;
+    }
+    .title-container div a button{
         font-size:1rem;
+    }
+    .login a button{
+        font-size: 1.2rem;
     }
     .features-container{
         flex-direction:column;
@@ -245,8 +257,8 @@ footer nav a{
     .features{
         width:80%;
     }
-    .features img{
-        height:auto;
+    .features-container .features img{
+        height:30vh;
     }
     .team-container{
         flex-direction:column;

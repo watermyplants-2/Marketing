@@ -207,15 +207,22 @@ footer nav a{
         font-size:2rem;
     }
     nav{
-        width:80%;
+        width:100%;
     }
     header nav a{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .title-container div{
         width:100%;
     }
-    button{
+    .title-container div h1{
+        font-size:6rem;
+    }
+    .login button{
+        font-size:1.2rem;
+        width:6rem;
+    }
+    .signup h4 a{
         font-size:1rem;
     }
     .features-container{
@@ -226,7 +233,7 @@ footer nav a{
         width:80%;
     }
     .features img{
-        height:auto;
+        height:40vh;
     }
     .team-container{
         flex-direction:column;

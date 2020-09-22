@@ -137,10 +137,6 @@ nav span{
     color: #ffffff;
     box-shadow: 2px 2px 1px white;
 }
-.login p, .login p a{
-    font-size:1rem;
-    color:white;
-}
 .signup h4{
     display: flex;
     flex-direction: row;

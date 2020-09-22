@@ -118,21 +118,22 @@ nav span{
     background-color:#8a9ea7;
     padding:0;
 }
-.login button{
+.login a button{
     padding:.5% 2%;
     font-size: 1.6rem;
     border-radius:4px;
     background-color:#dab692;
     border:2px solid #dab692;
     box-shadow: 2px 2px 1px #dab692;
-    width:10%;
-    color:white;
+    width:auto;
+    margin-bottom: 1rem;
+    color:#8f5b34;
 }
-.login button:hover{
+.login a button:hover{
     background-color:#dab692;
-    border:2px solid white;
-    color: #ffffff;
-    box-shadow: 2px 2px 1px white;
+    border:2px solid #8f5b34;
+    color: #8f5b34;
+    box-shadow: 2px 2px 1px #8f5b34;
 }
 .signup h4{
     display: flex;
@@ -218,7 +219,7 @@ footer nav a{
     .title-container div h1{
         font-size:6rem;
     }
-    .login button{
+    .login a button{
         font-size:1.2rem;
         width:6rem;
     }

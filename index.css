@@ -272,6 +272,13 @@ footer nav a{
     }
 }
 
+/**/
+@media (max-width:650px){
+    .team-container{
+        width:20%;
+    }
+}
+
 /*Tablet Media Query*/
 @media (max-width:800px){
     .features{

@@ -222,7 +222,7 @@ footer nav a{
     color:#8f5b34;
 }
 /*Media Query 500px*/
-@media (max-width:650px){
+@media (max-width:600px){
     body{
         font-size:1.2rem;
     }

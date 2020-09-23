@@ -1,4 +1,4 @@
-/*CSS RESET*/
+/*CSS Reset*/
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -19,7 +19,7 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-/*GENERAL STYLES*/
+/*General Styles*/
 html{
     font-size:62.5%;
 }
@@ -65,7 +65,7 @@ h4, h4 a{
     font-size: 1.3rem;
 }
 
-/*HEADER STYLES */
+/*Header Styles*/
 header{
     display:flex;
     justify-content: center;
@@ -132,7 +132,7 @@ nav span{
     box-shadow: 2px 2px 1px #ffffff;
 }
 
-/*Login & Signup Button*/
+/*Login & Signup Button Styles*/
 .login{
     display:flex;
     flex-direction: row;
@@ -221,8 +221,8 @@ footer nav a{
     padding:3rem;
     color:#8f5b34;
 }
-/*Media Query 500px*/
-@media (max-width:600px){
+/*Mobile Media Query 500px*/
+@media (max-width:500px){
     body{
         font-size:1.2rem;
     }
@@ -272,7 +272,8 @@ footer nav a{
     }
 }
 
-@media (max-width:750px){
+/*Tablet Media Query*/
+@media (max-width:800px){
     .features{
         width:85%;
     }

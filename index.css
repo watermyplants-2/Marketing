@@ -1,4 +1,4 @@
-/*CSS RESET*/
+/*CSS Reset*/
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -19,7 +19,8 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-/*GENERAL STYLES at min width of 768px*/
+
+/*General Styles*/
 html{
     font-size:62.5%;
 }
@@ -65,7 +66,7 @@ h4, h4 a{
     font-size: 1.3rem;
 }
 
-/*HEADER STYLES */
+/*Header Styles*/
 header{
     display:flex;
     justify-content: center;
@@ -132,7 +133,7 @@ nav span{
     box-shadow: 2px 2px 1px #ffffff;
 }
 
-/*Login & Signup Button*/
+/*Login & Signup Button Styles*/
 .login{
     display:flex;
     flex-direction: row;
@@ -211,6 +212,9 @@ nav span{
 .team-container .about a{
     font-family:'Raleway';
 }
+.social-icon{
+    font-size: 1.5rem;
+}
 /*Footer Styles*/
 footer nav{
     width: 100%;
@@ -224,8 +228,8 @@ footer nav a{
     padding:3rem;
     color:#8f5b34;
 }
-/*Media Query 500px*/
-@media (max-width:650px){
+/*Mobile Media Query 500px*/
+@media (max-width:500px){
     body{
         font-size:1.2rem;
     }
@@ -275,5 +279,19 @@ footer nav a{
     }
     .about img{
         height:auto;
+    }
+}
+
+/**/
+@media (max-width:650px){
+}
+
+/*Tablet Media Query*/
+@media (max-width:800px){
+    .features{
+        width:85%;
+    }
+    .team-container{
+        width:90%;
     }
 }

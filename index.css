@@ -19,6 +19,7 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+
 /*General Styles*/
 html{
     font-size:62.5%;
@@ -167,7 +168,7 @@ nav span{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    width:70%;
+    width:85%;
     padding: 5rem;
     margin:0 auto;
 }
@@ -201,6 +202,9 @@ nav span{
     border-radius: 50%;
     height: 30vh;
     width: 65%;
+}
+.team-container .about .description{
+    font-size: 1.5rem;
 }
 .team-container h4, .description{
     color: #8d9b6a;
@@ -250,6 +254,9 @@ footer nav a{
     }
     .title-container div a button{
         font-size:1rem;
+    }
+    .login a button{
+        font-size:1.2rem;
     }
     .login a button{
         font-size: 1.2rem;

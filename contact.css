@@ -1,4 +1,4 @@
-/*CSS RESET*/
+/* CSS RESET
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -19,7 +19,7 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;
 border: 1px solid grey;
-}
+} */
 /*GENERAL STYLES*/
 html{
     font-size:62.5%;
@@ -64,7 +64,7 @@ img:hover {
 }	
 
 /*HEADER STYLES */
-header{
+/* header{
     display:flex;
     justify-content: center;
 }
@@ -86,7 +86,7 @@ header nav a{
 nav span{
     border-left:1px solid #8f5b34;
 
-}
+} */
 /*Title Section Styles*/
 .title-container{
     display:flex;

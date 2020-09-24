@@ -27,7 +27,9 @@ html{
 body{
     font-size:1.6rem;
     line-height: 1.5;
-    font-family: 'Source Serif Pro';	
+    font-family: 'Source Serif Pro';
+    background-color: #e8dfe0;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 p, .description, button{	
     font-family: 'Source Serif Pro';	
